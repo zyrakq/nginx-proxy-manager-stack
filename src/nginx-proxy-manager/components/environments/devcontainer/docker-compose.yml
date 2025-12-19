@@ -1,0 +1,8 @@
+services:
+  nginx-proxy-manager:
+    networks:
+      - npm-workspace-network
+
+networks:
+  npm-workspace-network:
+    external: true

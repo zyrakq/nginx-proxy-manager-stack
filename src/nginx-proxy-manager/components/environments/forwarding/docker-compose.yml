@@ -1,0 +1,7 @@
+services:
+  nginx-proxy-manager:
+    privilege: true
+    ports:
+      - "80:80"
+      - "81:81"
+      - "443:443"
